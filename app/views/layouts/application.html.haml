@@ -1,0 +1,17 @@
+!!!
+%head
+  %title= "Guia do Programador"
+  %meta{:name => "description", :content=> "#{ content_for?(:description) ? yield(:description) : (I18n.t "site_description")}"}
+  %meta{:charset => "utf-8"}
+  %meta{:author => "Gabriel Aziz"}
+  = javascript_include_tag "application"
+  = stylesheet_link_tag 'colors.css'
+  = stylesheet_link_tag 'fonts.css'
+  = stylesheet_link_tag 'body.css'
+  = csrf_meta_tags
+  = render 'application/favicon'
+  = yield(:head)
+%body
+  = render 'layouts/header'
+  = render 'layouts/main'
+  = render 'layouts/footer'

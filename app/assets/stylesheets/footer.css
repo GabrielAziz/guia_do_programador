@@ -1,0 +1,8 @@
+footer {
+    background-color: var(--dracula-contrast);
+    margin: 0px;
+    padding: 20px;
+    max-height: auto;
+    justify-content: end;
+    margin-top: auto;
+}

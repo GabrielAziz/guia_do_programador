@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dificulty: 1
+  read_time: 1
+  title: MyString
+  content: MyText
+  likes: 1
+  admin: one
+
+two:
+  dificulty: 1
+  read_time: 1
+  title: MyString
+  content: MyText
+  likes: 1
+  admin: two

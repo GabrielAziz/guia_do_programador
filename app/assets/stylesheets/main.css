@@ -1,0 +1,55 @@
+main {
+    /* min-width: 300px; */
+    /* max-width: 800px; */
+    width: 800px;
+    margin-inline: auto;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+}
+
+.column {
+    display:inline;
+    float:left;
+}
+
+.data {
+    background-color: var(--dracula-pink);
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.data > p {
+    margin: 0px;
+    font-family: var(--monego-bold-font) !important;
+    color: var(--dracula-white);
+}
+
+.linguage {
+    margin-right: 100px;
+}
+
+.linguage > img{
+    margin-top: 13px;
+    height: 28px;
+    width: 28px;
+}
+
+.creator {
+    float: right;
+}
+
+.creator > img{
+    margin-top: 13px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.title > h1 {
+    padding: 0px;
+}

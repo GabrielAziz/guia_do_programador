@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'monego-bold';
+    src: font-url('monego-bold-webfont.woff2') format('woff2'),
+         font-url('monego-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'monego-italic';
+    src: font-url('monego-italic-webfont.woff2') format('woff2'),
+         font-url('monego-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'monego-regular';
+    src: font-url('monego-regular-webfont.woff2') format('woff2'),
+         font-url('monego-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'monego-bold_italic';
+    src: font-url('monego-bolditalic-webfont.woff2') format('woff2'),
+         font-url('monego-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --monego-regular-font:     monego-regular;
+    --monego-italic-font:      monego-italic;
+    --monego-bold-font:        monego-bold;
+    --monego-bold_italic-font: monego-bold_italic;
+
+}

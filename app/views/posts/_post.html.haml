@@ -1,0 +1,12 @@
+.post{ id: "post_#{post.id}"}
+  .row
+    .data.column
+      %p
+        = post.created_at.strftime("%d de %B/%Y")
+    .linguage.column
+      = image_tag(post.language.icon)
+    .creator.column
+      = image_tag(post.admin.icon)
+  .row
+    .title.column
+      %h1= post.title
